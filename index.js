@@ -1,6 +1,6 @@
 function addingEventListener() {
-  const input = document.getElementById('input');
-  input.addEventListener('click', function(event) {
-  alert('I was clicked!');
+  const inp = document.getElementById("input");
+  inp.addEventListener("click", function (e) {
+    alert("I was clicked!");
   });
 }
